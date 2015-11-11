@@ -29,6 +29,15 @@ function gs {
 		ls -alth . | grep MARK | awk -F 'MARK_' '{print $2}'
 }
 
+function lastvim(){
+	if [ -f ${HOME}/.vim/lastvimfile ]
+	then
+		read path file < ${HOME}/.vim/lastvimfile
+		cd $path && vim $file
+	fi
+}
+
+
 _completemarks() {
     local curw=${COMP_WORDS[COMP_CWORD]}
     local wordlist=$(ls -l "$MARKPATH" | grep ^l | cut -d ' ' -f 13)
