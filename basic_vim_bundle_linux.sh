@@ -24,6 +24,8 @@ call vundle#end()
 
 let g:mapleader = ','
 map <C-n> :NERDTreeToggle<CR>
+let g:neocomplcache_enable_at_startup = 1 
+let g:neocomplcache_enable_auto_select = 1 
 
 EOF
 
