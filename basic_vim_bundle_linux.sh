@@ -23,6 +23,7 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()
 
 let g:mapleader = ','
+map <C-n> :NERDTreeToggle<CR>
 
 EOF
 
