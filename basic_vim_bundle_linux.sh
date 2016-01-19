@@ -19,6 +19,7 @@ Plugin 'gmarik/vundle'
 Plugin 'neocomplcache'
 Plugin 'The-NERD-Commenter'
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 
 let g:mapleader = ','
