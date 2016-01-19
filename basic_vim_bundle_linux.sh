@@ -21,6 +21,8 @@ Plugin 'The-NERD-Commenter'
 Plugin 'bling/vim-airline'
 call vundle#end()
 
+let g:mapleader = ','
+
 EOF
 
 
