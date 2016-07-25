@@ -16,6 +16,7 @@ set tabstop=4
 " for vundle
 set rtp+=/usr/share/vim/vimfiles/bundle/vundle/  
 call vundle#rc('/usr/share/vim/vimfiles/bundle/')  
+Plugin 'vundle'
 Plugin 'neocomplcache'
 Plugin 'The-NERD-Commenter'
 Plugin 'bling/vim-airline'
