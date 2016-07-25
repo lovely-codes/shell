@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#### vundle.git at : /usr/share/vim/vimfiles/bundle/vundle
+#### plugin dir : /usr/share/vim/vimfiles/bundle/
+
 cp /etc/vimrc /etc/vimrc.bk
 git clone https://github.com/gmarik/vundle.git /usr/share/vim/vimfiles/bundle/vundle
 
